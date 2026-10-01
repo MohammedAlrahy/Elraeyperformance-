@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Elraey Performance",
+    "slug": "elraey-performance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-foreground.png",
+    "scheme": "elraey-performance",
+    "android": {
+      "package": "com.elraey.performance",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-foreground.png",
+        "backgroundColor": "#07110D"
+      },
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
